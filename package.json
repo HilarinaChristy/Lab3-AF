@@ -1,0 +1,11 @@
+{
+  "name": "lab3-af",
+  "version": "1.0.0",
+  "description": "Lab 3 AF",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hilarina",
+  "license": "ISC"
+}
