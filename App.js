@@ -61,4 +61,6 @@ const myPromise = new Promise((resolve, reject) => {
     }
    }
    myFunction();
+
+   //sathira's change
    
