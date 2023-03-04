@@ -36,3 +36,29 @@ https.get('https://jsonplaceholder.typicode.com/posts/1', (resp) => {
 //TASK5
 const myModule = require('./my-module.js');
 console.log(myModule.myFunction());
+
+//TASK6
+const myPromise = new Promise((resolve, reject) => {
+    if (condition) {
+    resolve('Success!');
+    } else {
+    reject('Failure!');
+    }
+   });
+   myPromise.then((result) => {
+    console.log(result);
+   }).catch((error) => {
+    console.log(error);
+   });
+
+   //TASK7
+   async function myFunction() {
+    try {
+    const result = await myPromise;
+    console.log(result);
+    } catch (error) {
+    console.log(error);
+    }
+   }
+   myFunction();
+   
